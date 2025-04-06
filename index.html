@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Мой сайт</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
@@ -21,21 +21,31 @@
   <main>
     <section class="about">
       <h2>Обо мне</h2>
-      <p>Привет! Я начинающий веб-разработчик. Учусь создавать сайты на HTML и CSS.</p>
+      <img src="images/profile.jpg" alt="Моё фото" class="profile-img" />
+      <p>Привет! Я начинающий веб-разработчик. Учусь создавать сайты на HTML, CSS и JavaScript.</p>
     </section>
 
     <section class="projects">
       <h2>Мои проекты</h2>
+      <img src="images/projects.jpg" alt="Проекты" class="project-img" />
       <ul>
         <li>Лендинг для кафе</li>
         <li>Портфолио дизайнера</li>
         <li>Интерактивная визитка</li>
       </ul>
     </section>
+
+    <section class="interaction">
+      <h2>Интерактив</h2>
+      <button onclick="sayHello()">Нажми на меня</button>
+    </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Мой сайт. Все права защищены.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
